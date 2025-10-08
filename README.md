@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# OBELISK
+> A modern [React](https://react.dev/) e-commerce web application for an online store, built with Redux, and Tailwind CSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Preview
 
-### `npm start`
+<!-- Replace with an actual screenshot or GIF -->
+![Project Screenshot](./public/project-mockup.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- **Product Browsing:** A comprehensive shop page to browse through all available products.
+- **Detailed Product View:** Click on any product to see a more detailed description, images, and pricing.
+- **Advanced Search:** A search bar that provides real-time filtering of products as you type.
+- **Shopping Cart:** Add and remove products from your cart, with the number of items always visible in the header.
+- **User Account UI:** UI for signing up and signing in is implemented, but not connected to a backend.
+- **Categorized Shopping:** Easily navigate through different product categories like "New Arrivals," "Best Sellers," and "Special Offers."
+- **Product Filtering:** Refine your search by brand, category, color, and price to find exactly what you're looking for.
+- **Paginated Results:** Product lists are broken down into multiple pages for easier browsing.
+- **Checkout Page:** A placeholder checkout page is in place.
+- **Responsive Design:** The website is fully functional and looks great on both desktop and mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Check out the live version here:
+**[🔗 Live Project](https://obelisk-jkv21.vercel.app/)**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+- **UI Library:** [React](https://react.dev/) `^18`
+- **State Management:** [Redux](https://redux.js.org/) `^1.9.2`
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) `^3.2.4`
+- **Routing:** [React Router](https://reactrouter.com/) `^6.6.0`
+- **Deployment:** [Vercel](https://vercel.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+├───public/             # Static assets (images, icons, etc.)
+└───src/
+    ├───assets/
+    ├───components/         # Reusable UI components
+    ├───constants/
+    ├───pages/              # Application pages
+    └───redux/              # Redux store and slices
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ⚙️ Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ✅ Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Node.js (v18.x or later)
+* npm / yarn / pnpm
 
-### Code Splitting
+### 🧰 Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repository:
 
-### Analyzing the Bundle Size
+   ```bash
+   git clone https://github.com/jkvdev/obelisk.git
+   ```
+2. Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   cd obelisk
+   ```
+3. Install the dependencies:
 
-### Making a Progressive Web App
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🔐 Environment Variables
 
-### Advanced Configuration
+This project does not require any environment variables.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### ▶️ Running the Development Server
 
-### Deployment
+```bash
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Visit [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 💡 Key Learnings & Challenges
+
+* Implemented a **global state management** system with **Redux** to handle the **shopping cart** functionality.
+* Utilized **React Router** for creating a **multi-page application** with seamless navigation.
+* Built a **responsive** and **mobile-first** user interface with **Tailwind CSS**.
+* Focused on creating a clean and reusable **component-based architecture**.
+
+---
+
+## 🗺️ Roadmap
+
+* [ ] Implement a full-fledged backend with user authentication and order management.
+* [ ] Connect the application to a real database to manage products and inventory.
+* [ ] Integrate a payment gateway for processing transactions like Stripe.
+* [ ] Add unit and integration tests to ensure code quality.
+* [ ] Add a dark mode feature.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+**Valentin Costea** – [Portfolio](https://jkvdev.com) – [jkv21contact@gmail.com](mailto:jkv21contact@gmail.com)
